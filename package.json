@@ -9,7 +9,7 @@
     "build": "./node_modules/.bin/babel src --out-dir dist",
     "build:watch": "npm run build --watch",
     "lint": "./node_modules/.bin/eslint src/**.*.js __tests__/**.*js",
-    "version": "npm run build && git add -A dist"
+    "version": "npm run build && git add -A dist",
   },
   "keywords": [
     "react",
@@ -19,19 +19,19 @@
     "modifier",
     "title",
     "style",
-    "observant"
+    "observant",
   ],
   "author": "Hadi Michael <hadimichael@gmail.com> (https://hadi.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hadimichael/react-document-modifier/issues"
+    "url": "https://github.com/hadimichael/react-document-modifier/issues",
   },
   "homepage": "https://github.com/hadimichael/react-document-modifier",
   "dependencies": {
     "lodash": "^3.10.0",
     "react": "^0.14.0",
     "react-side-effect": "^1.0.0",
-    "seamless-immutable": "^4.0.0"
+    "seamless-immutable": "^4.0.0",
   },
   "devDependencies": {
     "babel-cli": "^6.2.0",
@@ -43,6 +43,6 @@
     "eslint-plugin-react": "^3.10.0",
     "jsdom": "^7.0.2",
     "mocha": "^2.3.4",
-    "react-addons-test-utils": "^0.14.3"
+    "react-addons-test-utils": "^0.14.3",
   }
 }
